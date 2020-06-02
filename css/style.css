@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Europa", Arial, Helvetica, sans-serif;
   background-image: url(../images/coronavirus_transparent.png);
@@ -64,6 +68,8 @@ body {
 .main-banner-content {
   padding-top: 100px;
 }
+.coro-stat {
+}
 
 .coro-stat .card {
   box-shadow: 2px 4px 7px #ccc;
@@ -102,10 +108,10 @@ body {
 }
 
 .symptoms {
-  background-color: rgb(240, 240, 240);
   background-image: url(../images/coronavirus_bg-grey.png);
   background-position: center center;
   background-size: cover;
+  margin-top: 30px;
 }
 
 .flex-row {
@@ -177,6 +183,10 @@ body {
 
 .list-policy a {
   color: #333;
+}
+
+.bg-grey {
+  background-color: rgb(240, 240, 240);
 }
 
 @media screen and (max-width: 768px) {

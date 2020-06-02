@@ -25,19 +25,22 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#index">Covid-Index</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#steps">Steps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#coronavirus">About Coronavirus</a>
                     </li>
                 </ul>
-            </div> -->
+            </div>
         </div>
     </nav>
     <div class="main-banner">
@@ -47,7 +50,7 @@
                     <div class="main-banner-content">
                         <h2>Save Yourself <br /> Save the World.</h2>
                         <p>Coronavirus disease (Covid-19) is an infectious disease caused by a new virus.</p>
-                        <button class="btn btn-danger">Check Symptoms</button>
+                        <a href="#steps" class="btn btn-danger">Check Symptoms</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -87,25 +90,7 @@
             </div>
         </div>
 
-        <div class="about">
-            <div class="container">
-                <div class="row flex-row">
-                    <div class="col-lg-6">
-                        <img src="images/coughing-2.png" class="img-fluid" />
-                    </div>
-                    <div class="col-lg-6">
-                        <h3>What is novel Coronavirus</h3>
-                        <p>Coronavirus disease (Covid-19) is an infectious disease caused by a new virus. The disease is
-                            a respiratory illness (like the flu) with symptoms such as cough, fever and in more severe
-                            cases,difficulty breathing</p>
-                        <p>You can protect yourself by washing your hands frequently, avoid touching your face and avoid
-                            close contact ( 1 meter or 3 feet) distances with people who are unwell.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="symptoms">
+        <div class="symptoms bg-grey" id="index">
             <div class="container">
                 <div class="row flex-row">
                     <div class="col-lg-6">
@@ -125,7 +110,7 @@
             </div>
         </div>
 
-        <div class="steps">
+        <div class="steps" id="steps">
             <div class="container">
                 <div class="row flex-row">
                     <div class="col-lg-4 order-card-1">
@@ -171,6 +156,24 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about" id="coronavirus">
+            <div class="container">
+                <div class="row flex-row">
+                    <div class="col-lg-6">
+                        <img src="images/coughing-2.png" class="img-fluid" />
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>What is novel Coronavirus</h3>
+                        <p>Coronavirus disease (Covid-19) is an infectious disease caused by a new virus. The disease is
+                            a respiratory illness (like the flu) with symptoms such as cough, fever and in more severe
+                            cases,difficulty breathing</p>
+                        <p>You can protect yourself by washing your hands frequently, avoid touching your face and avoid
+                            close contact ( 1 meter or 3 feet) distances with people who are unwell.</p>
                     </div>
                 </div>
             </div>
