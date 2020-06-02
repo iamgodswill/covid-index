@@ -12,6 +12,11 @@ body {
   font-size: 18px;
 }
 
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: transparent;
+}
+
 .btn {
   padding: 0.8rem 1.5rem;
   border-radius: 2rem;
