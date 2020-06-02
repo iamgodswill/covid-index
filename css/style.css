@@ -1,0 +1,201 @@
+body {
+  font-family: "Europa", Arial, Helvetica, sans-serif;
+  background-image: url(../images/coronavirus_transparent.png);
+  /* background-position: center center;
+  background-size: cover; */
+  background-repeat: no-repeat;
+  color: rgb(82, 82, 82);
+  font-size: 18px;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  /* box-shadow: 2px 4px 7px #ccc; */
+}
+
+.main-banner {
+  padding: 100px 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: 100%;
+  /* background-image: url(../images/coronavirus_transparent.png); */
+  background-position: center center;
+  background-size: cover;
+}
+
+.main-banner-content p {
+  font-size: 25px;
+}
+
+.img-logo {
+  width: 150px;
+}
+
+.logo-text {
+  font-weight: 700;
+  color: rgb(29, 17, 61);
+}
+
+.bg-transparent {
+  background-color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(29, 17, 61);
+  font-weight: 700;
+}
+
+.main-banner h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: rgb(29, 17, 61);
+}
+
+.main-banner .img-fluid {
+  width: 80%;
+}
+
+.coro-img {
+  width: 80%;
+}
+
+.main-banner-content {
+  padding-top: 100px;
+}
+
+.coro-stat .card {
+  box-shadow: 2px 4px 7px #ccc;
+  border-radius: 10px;
+  border: none;
+}
+
+.coro-stat .stat-item h3 {
+  color: rgb(220, 53, 69);
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.recovered {
+  color: #5dc374 !important;
+}
+
+.stat-item p {
+  font-weight: 700;
+  margin-bottom: 0px;
+  color: #777;
+  font-size: 15px;
+}
+
+.symptoms h3,
+.about h3 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: rgb(29, 17, 61);
+}
+
+.symptoms,
+.about,
+.steps {
+  padding: 100px 0;
+}
+
+.symptoms {
+  background-color: rgb(240, 240, 240);
+  background-image: url(../images/coronavirus_bg-grey.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.flex-row {
+  justify-content: center;
+  align-items: center;
+}
+
+.steps-card {
+  margin-bottom: 20px;
+}
+
+.steps-card .card {
+  height: 120px;
+  font-size: 15px;
+}
+
+.steps-card .card-body {
+  background-color: #223f4a;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.steps {
+  background-image: url(../images/coronavirus_transparent.png);
+  background-position: top center;
+  background-size: cover;
+}
+
+.steps-card .card-body:hover {
+  background-color: #4bb2db;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.steps-card h4 {
+  font-weight: 700;
+}
+
+.card-info-view h3 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.card-info-view {
+  margin-bottom: 50px;
+}
+
+.card-info-view .card {
+  padding: 15px 0;
+  background-color: #1d113d;
+  color: #fff;
+}
+
+.list-policy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list-policy {
+  padding-left: 0;
+}
+
+.list-policy li {
+  padding: 0 20px;
+  list-style: none;
+}
+
+.list-policy a {
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .order-card-1 {
+    order: 1;
+  }
+  .order-card-3 {
+    order: 2;
+  }
+  .main-banner h2 {
+    font-size: 2.5rem;
+  }
+  .bg-transparent {
+    background-color: white !important;
+  }
+  .stat-item {
+    margin-bottom: 30px;
+  }
+  .main-banner-content {
+    padding-top: 0px;
+  }
+}
