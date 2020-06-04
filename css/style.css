@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   color: rgb(82, 82, 82);
   font-size: 18px;
+  position: relative;
 }
 
 .navbar-light .navbar-toggler {
@@ -100,7 +101,8 @@ body {
 }
 
 .symptoms h3,
-.about h3 {
+.about h3,
+.contact h3 {
   font-weight: 700;
   font-size: 2.5rem;
   color: rgb(29, 17, 61);
@@ -108,7 +110,8 @@ body {
 
 .symptoms,
 .about,
-.steps {
+.steps,
+.contact {
   padding: 100px 0;
 }
 
@@ -139,10 +142,15 @@ body {
   border-radius: 10px;
 }
 
-.steps {
+.steps,
+.contact {
   background-image: url(../images/coronavirus_transparent.png);
   background-position: top center;
   background-size: cover;
+}
+
+.contact {
+  background-color: #f9f9f9;
 }
 
 .steps-card .card-body:hover {
@@ -170,6 +178,13 @@ body {
   color: #fff;
 }
 
+.footer {
+  padding: 40px 0;
+  background-color: #1d113d;
+  color: #fff;
+  font-size: 14px;
+}
+
 .list-policy {
   display: flex;
   justify-content: center;
@@ -187,7 +202,7 @@ body {
 }
 
 .list-policy a {
-  color: #333;
+  color: #fff;
 }
 
 .bg-grey {
