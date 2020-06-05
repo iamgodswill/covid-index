@@ -5429,7 +5429,9 @@ table.grid td {
 .img-status {
   width: 30px;
 }
-
+.chart-height {
+  height: 330px;
+}
 .footer {
   bottom: 0px;
   color: #272727;
@@ -5691,6 +5693,9 @@ table.grid td {
 }
 
 @media only screen and (max-width: 767px) {
+  .chart-height {
+    height: 240px;
+  }
   #sidebar-wrapper {
     position: fixed;
     top: 60px;
