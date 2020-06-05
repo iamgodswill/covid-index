@@ -5426,6 +5426,10 @@ table.grid td {
   border-bottom-left-radius: 0.25rem;
 }
 
+.img-status {
+  width: 30px;
+}
+
 .footer {
   bottom: 0px;
   color: #272727;
